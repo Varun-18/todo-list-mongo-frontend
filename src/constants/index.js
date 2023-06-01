@@ -1,6 +1,6 @@
 import Swal from 'sweetalert2'
 
-const baseurl = 'http://localhost:5000'
+const baseurl = 'https://todo-list-mongo-backend.vercel.app'
 
 const api = {
     addUser: `${baseurl}/user/add`,
