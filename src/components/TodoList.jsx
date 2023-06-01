@@ -11,7 +11,7 @@ export const TodoList = () => {
       <div>
 
       <h1>Todo list App</h1>
-        <Button onClick={()=>userLogout}>
+        <Button onClick={()=>userLogout()}>
           logout
       </Button>
       </div>
