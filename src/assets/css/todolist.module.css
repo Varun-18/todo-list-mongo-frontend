@@ -1,0 +1,40 @@
+.taskContainer{
+    margin: 20px auto;
+    width: 90%;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.taskContainerdiv{
+    width: 40%;
+}
+
+.taskHolder{
+    width: 100%;
+}
+
+.task{
+    display: flex;
+    border:  1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 15px;
+    justify-content: space-around;
+}
+
+.taskList{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.taskAction{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
