@@ -28,7 +28,7 @@ export const AddTodo = () => {
     console.log(userData)
     return (
         <>
-            <Button variant="outlined" onClick={handleOpen}>
+            <Button variant="outlined" onClick={handleOpen} sx={{ marginLeft: '10px' }}>
                 Add task
             </Button>
             <Dialog
