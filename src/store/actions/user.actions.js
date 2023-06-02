@@ -78,7 +78,7 @@ export const deleteTask = createAsyncThunk(
 
 export const logout = createAsyncThunk('userSlice/logout', async (details) => {
     try {
-        const { data } = await API.get(details)
+        const { data } = await API.post(details)
         return data
     } catch (error) {
         console.log(error)
